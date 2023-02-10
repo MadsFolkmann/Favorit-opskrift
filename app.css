@@ -1,0 +1,99 @@
+body{
+    font-family: 'Habibi', serif;
+    background-image: url(Billeder/pasta-med-flanksteak-og-cherrytomater-2.jpg);
+
+}
+
+
+h1{
+  font-family: 'Raleway', sans-serif;
+}
+h2,h3,h4{
+font-family: 'Imprima', sans-serif;
+}
+img:hover{
+  opacity: 0.6;  
+}
+
+
+
+.grid-container{
+     display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: minmax(150px, auto);
+    gap: 10px;  
+    padding: 10px;
+
+}
+
+.grid-item{
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.header{
+    grid-column: 1 / -1;
+    grid-row: 1;
+      font-size: 20px;
+  border: 2px solid rgb(255, 255, 255, 0.8);
+  margin: 20px;
+  padding: 10px;
+  background-color: bisque;
+  text-align: center;
+  text-transform: uppercase;
+}
+.start{
+    grid-column: 1 / -1;
+    grid-row: 2;
+    font-size: 20px;
+}
+.retten > img {
+  max-width: 35%;
+  height: auto;
+   border: 4px dotted white;
+  border-radius: 40%;
+}
+
+
+    
+.ingredienser {
+    grid-column: 1;
+    grid-row: 3;
+    font-size: 15px;
+    border: 2px solid rgb(255, 255, 255, 0.8);
+    text-align: justify;
+line-height: 2.3;
+}
+.fremgangsmåde{
+    grid-column: 2 / 4;
+    grid-row: 3;
+    font-size: 15px;
+      border: 2px solid rgb(255, 255, 255, 0.8);
+  line-height: 2.5;
+  list-style-position: inside;
+  text-align: justify;
+}
+
+.flere-retter{
+    grid-column: 1 / -1;
+    grid-row: 4;
+    font-size: 15px;
+    border: 1px solid white;
+    margin: 8px;
+    padding: 8px;
+    text-align: justify;
+
+}
+
+.flere-retter img {
+    border-radius: 40%;
+    border: dotted 4px white;
+}
+
+.flere-retter  a{
+    text-decoration: none;
+    color: black;
+}
+
