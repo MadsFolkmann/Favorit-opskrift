@@ -9,10 +9,10 @@ h1{
   font-family: 'Raleway', sans-serif;
 }
 h2,h3,h4{
-font-family: 'Imprima', sans-serif;
+    font-family: 'Imprima', sans-serif;
 }
 img:hover{
-  opacity: 0.6;  
+    opacity: 0.6;  
 }
 
 nav {
@@ -34,7 +34,7 @@ nav a {
 
 
 .grid-container{
-     display: grid;
+    display: grid;
     grid-template-columns: auto auto auto;
     grid-auto-rows: minmax(150px, auto);
     gap: 10px;  
@@ -50,14 +50,14 @@ nav a {
 .header{
     grid-column: 1 / -1;
     grid-row: 1;
-      font-size: 20px;
-  border: 2px solid rgb(255, 255, 255, 0.8);
-  margin: 20px;
-  padding: 10px;
-  background-color: bisque;
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 5px;
+    font-size: 20px;
+    border: 2px solid rgb(255, 255, 255, 0.8);
+    margin: 20px;
+    padding: 10px;
+    background-color: bisque;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5px;
 }
 .start{
     grid-column: 1 / -1;
@@ -69,10 +69,10 @@ nav a {
 
 }
 .retten > img {
-  max-width: 45%;
-  height: auto;
-   border: 4px dotted white;
-  border-radius: 40%;
+    max-width: 45%;
+    height: auto;
+    border: 4px dotted white;
+    border-radius: 40%;
 }
 
 
@@ -90,11 +90,11 @@ nav a {
     grid-column: 2 / 4;
     grid-row: 3;
     font-size: 15px;
-      border: 2px solid rgb(255, 255, 255, 0.8);
+    border: 2px solid rgb(255, 255, 255, 0.8);
     line-height: 2.5;
     list-style-position: inside;
     text-align: justify;
-      margin-top: 3px;
+    margin-top: 3px;
 
 }
 
@@ -114,7 +114,7 @@ footer {
 }
 
 .social-media a {
-display: inline-block;
+    display: inline-block;
 }
 
 .social-media img{
