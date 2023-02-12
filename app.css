@@ -15,6 +15,22 @@ img:hover{
   opacity: 0.6;  
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  padding: 10px;
+  border: 2px solid rgb(255, 255, 255, 0.8);
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
 
 
 .grid-container{
@@ -24,8 +40,6 @@ img:hover{
     gap: 10px;  
     padding: 10px;
 }
-
-
 
 .grid-item{
     background-color: bisque;
@@ -43,6 +57,7 @@ img:hover{
   background-color: bisque;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 5px;
 }
 .start{
     grid-column: 1 / -1;
@@ -68,35 +83,41 @@ img:hover{
     font-size: 15px;
     border: 2px solid rgb(255, 255, 255, 0.8);
     text-align: justify;
-line-height: 2.3;
+    line-height: 2.3;
+    margin-top: 3px;
 }
 .fremgangsmåde{
     grid-column: 2 / 4;
     grid-row: 3;
     font-size: 15px;
       border: 2px solid rgb(255, 255, 255, 0.8);
-  line-height: 2.5;
-  list-style-position: inside;
-  text-align: justify;
-}
-
-.flere-retter{
-    grid-column: 1 / -1;
-    grid-row: 4;
-    font-size: 15px;
-    border: 1px solid white;
-    padding: 8px;
+    line-height: 2.5;
+    list-style-position: inside;
     text-align: justify;
+      margin-top: 3px;
 
 }
 
-.flere-retter img {
-    border-radius: 40%;
-    border: dotted 4px white;
+footer {
+  background-color: bisque;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255, 0.8);
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.flere-retter  a{
-    text-decoration: none;
-    color: black;
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  
 }
 
+.social-media a {
+display: inline-block;
+}
+
+.social-media img{
+    width: 50px;
+    height: 50px;
+}
